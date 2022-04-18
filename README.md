@@ -1,17 +1,17 @@
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/3b359070fe7d4bd2817e5924c72b3dbe)](https://www.codacy.com/gh/ServicesGus/Projeto/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ServicesGus/Projeto&amp;utm_campaign=Badge_Grade)
 
-# Sistema de oferta de serviços gerais
+# Sistema de Intermediação de Emprego
 ## :octocat: Integrantes
 [Felipe Branco ](https://github.com/FelipeWhite) | [Daniel Duarte](https://github.com/Baladowski) | [João Victor](https://github.com/jvictorcordeiro) | [Carlos Emanuel](https://github.com/carlosemmanueldev) | [Vinícius Lucena](https://github.com/viniciuslucena)
 ## :page_with_curl: Sobre o Projeto
-Projeto para implementação de um SaaS em Ruby e Rails com foco no servidor para a disciplina de Engenharia de Software ministrado pelo Professor Dr. Rodrigo Andrade, da UFAPE, referente ao período de 2022.1 com intuito de avaliação para a 1ª e 2ª Verificação de Aprendizagem. O projeto é referente a um sistema de oferta de serviços gerais que tem como objetivo otimizar o contrato dos serviços a serem feitos. O sistema irá ajudar a planejar futuros serviços.Além disso, auxilia também os trabalhadores a ter uma melhor organização quanto aos serviços, visto que eles já teriam os nomes de seus clientes e os dados vinculados, levando assim uma forma mais otimizada da perspectiva dos serviços a serem feitos.
+Projeto para implementação de um SaaS em Ruby e Rails com foco no servidor para a disciplina de Engenharia de Software ministrado pelo Professor Dr. Rodrigo Andrade, da UFAPE, referente ao período de 2022.1 com intuito de avaliação para a 1ª e 2ª Verificação de Aprendizagem. O projeto é referente a um Sistema de intermediação de emprego que tem como objetivo otimizar o contato de empresas com os requerentes. O sistema irá facilitar o usuário na sua escolha de emprego.Além disso, auxilia também os usuários a ter uma visão melhor quanto aos empregos ofertados visto que eles já vão ter seus dados e habilidades armazenados, levando assim uma forma mais otimizada de encontar um emprego perfeito para o usuário.
 
 
 
 *   [Site no Heroku](https://pacific-brook-64360.herokuapp.com/) :robot:
 
 ## :round_pushpin: Objetivos
-O sistema visa conectar trabalhadores independentes com potenciais clientes, deve ter as funcionalidades de cadastrar, editar, remover e visualizar, trabalhadores e clientes, os trabalhadores devem ser capazes de cadastrar, editar, remover e visualizar serviços, onde eles vão poder dar uma explicação sobre o serviço, horário de início e término do serviço ao dia, colocar preço e etc. Os clientes devem ser capazes de visualizar e contratar o serviço (o sistema não deve permitir uma contratação de serviço em um horário já ocupado por outro cliente.). Além disso, para que o sistema tenha segurança para seus usuários, deve existir o usuário administrador capaz de fazer uma pesquisa no sistema tanto para cliente quanto para trabalhador, ser capaz de visualizar, remover usuário e visualizar todas as contratações de um usuário a fim de evitar crimes por parte dos mesmos.
+O sistema tem como objetivo intermediar vagas de empregos, portanto, deve ser capaz de cadastrar/editar/remover/visualizar um empregador, vaga de emprego e candidato à vaga,além disso, o sistema precisa ter um administrador para analisar e permitir a entrada de uma vaga de emprego no sistema para que não haja entradas falsas. Os candidatos devem ser capazes de ver as ofertas de emprego e aplicar para elas. O empregador deve ser capaz de visualizar os candidatos que fizeram aplicação às vagas que ele criou (exceto informações privadas, como a senha do candidato no sistema, por exemplo).
 
 ## :hammer_and_wrench: Tecnologias Usadas
 ### [Ruby](https://www.ruby-lang.org/pt/)
