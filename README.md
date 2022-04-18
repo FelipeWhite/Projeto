@@ -11,7 +11,7 @@ Projeto para implementação de um SaaS em Ruby e Rails com foco no servidor par
 *   [Site no Heroku](https://pacific-brook-64360.herokuapp.com/) :robot:
 
 ## :round_pushpin: Objetivos
-O sistema visa conectar empresas com potenciais funcionários, deve ter as funcionalidades de cadastrar, editar, remover e visualizar, funcionários , os empregadores devem ser capazes de cadastrar, editar, remover e visualizar ofertas de emprego, onde eles vão poder dar uma explicação sobre o emprego, horário de início e término do serviço ao dia, salário, beneficios e etc. Os clientes devem ser capazes de visualizar e dar entrada na oferta. Além disso, para que o sistema tenha segurança para seus usuários, deve existir o usuário administrador capaz de fazer uma pesquisa no sistema tanto para cliente quanto para empregador, ser capaz de visualizar, remover usuário e visualizar todas as contratações de um usuário a fim de evitar crimes por parte dos mesmos.
+O sistema tem como objetivo intermediar vagas de empregos, portanto, deve ser capaz de cadastrar/editar/remover/visualizar um empregador, vaga de emprego e candidato à vaga,além disso, o sistema precisa ter um administrador para analisar e permitir a entrada de uma vaga de emprego no sistema para que não haja entradas falsas. Os candidatos devem ser capazes de ver as ofertas de emprego e aplicar para elas. O empregador deve ser capaz de visualizar os candidatos que fizeram aplicação às vagas que ele criou (exceto informações privadas, como a senha do candidato no sistema, por exemplo).
 
 ## :hammer_and_wrench: Tecnologias Usadas
 ### [Ruby](https://www.ruby-lang.org/pt/)
